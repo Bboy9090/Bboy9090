@@ -1,16 +1,14 @@
-## Hi there 👋
+# Bobby Blanco
 
-<!--
-**Bboy9090/Bboy9090** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Creator, builder, and experimenter working at the intersection of software, storytelling, and tools.
 
-Here are some ideas to get you started:
+I build systems that combine:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🤖 AI-powered creative engines
+- 🔍 Investigative and verification tools
+- 🔧 Device repair and diagnostic platforms
+- 📖 Interactive storytelling frameworks
+
+This GitHub is my workshop.
+
+Some projects are prototypes. Some are production tools. All of them are steps toward building better systems.
