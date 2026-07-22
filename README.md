@@ -1,258 +1,99 @@
 # Bobby Blanco
 
-Creator, builder, and experimenter working at the intersection of software, storytelling, and tools.
+**Builder of operating systems, recovery tools, creative platforms, and story worlds.**
 
-I build systems that combine:
+I build software under **Bobby’s Workshop** and **Blue Phoenix Studios**, with one rule running through the entire portfolio:
 
-- AI-powered creative engines
-- investigative and verification tools
-- device repair and diagnostic platforms
-- interactive storytelling frameworks
-- 🤖 AI-powered creative engines
-- 🔍 Investigative and verification tools
-- 🔧 Device repair and diagnostic platforms
-- 📖 Interactive storytelling frameworks
+> **Evidence before adjectives.** A product earns words like secure, reliable, compatible, polished, and production-ready through working code, retained tests, and honest limitations.
 
-This GitHub is my workshop.
+## Flagship systems
 
-Some projects are prototypes. Some are production tools. All of them are steps toward building better systems.
+### ARCWYRE Native
+A from-scratch x86_64 operating-system program built around the Phoenix Prime Kernel, protected userspace, verifiable recovery, and owner-controlled computing.
 
-## Core Projects
+**Current verified baseline:** long-mode kernel boot, content-addressed initramfs validation, and a separate ELF64 process executing at CPL3 under QEMU. ARCWYRE remains active systems research, not a public production release.
 
-### PhoenixCore
-Device imaging and system deployment engine written in Rust and Python.
+### [PhoenixCore](https://github.com/Bboy9090/PhoenixCore-)
+Device intelligence, diagnostics, repair planning, evidence orchestration, and cross-device coordination for the Bobby’s Workshop ecosystem.
 
-### Rainstorms
-AI-powered children's book generator that turns ideas into full illustrated story drafts.
+### [Phoenix Key / BootForge](https://github.com/Bboy9090/Bootforge-usb)
+Rust-powered USB discovery and the safe desktop foundation for signed boot and recovery media. Read-only detection and explicit safety boundaries come first.
 
-### Atlas Verify
-Case-based identity verification and enrichment platform for investigators and analysts.
+### [Bobby’s Workshop](https://github.com/Bboy9090/Bobbys-Workshop-)
+The human-facing repair and recovery workspace that brings diagnostics, guided workflows, case records, evidence, and approved device actions into one professional interface.
 
-### SoulCodex
-AI-driven personality and life analysis engine combining astrology, numerology, and human design.
+## Flagship apps and worlds
 
-### Saga Architect
-Universe bible and canon management system for writers and creators.
+### [Soul Codex](https://github.com/Bboy9090/Ultimate-SoulCodex)
+A personal insight platform combining astrology, numerology, Human Design, compatibility, daily guidance, web, and mobile delivery.
 
-## Ecosystem
+### [Legends of Kai-Jax: The Memory Hero](https://github.com/Bboy9090/Legends-of-Kai-Jax-The-memory-Hero)
+A mythic platform-fighter and story universe centered on memory, identity, transformation, and original beast-hybrid heroes.
 
-Many projects connect together:
+### [Phoenix Creator Studio](https://github.com/Bboy9090/SagaArchitect)
+A production and canon platform for characters, factions, timelines, scenes, storyboards, lore rules, and franchise-scale creative workflows.
 
-**PhoenixCore** → device diagnostics and deployment tools
-**BootForge** → bootable OS creation system
-**Bobby's Workshop** → repair platform interface
+### [Ghost Writer](https://github.com/Bboy9090/GhostWriter-)
+An AI-assisted writing, OCR, research, editing, and publishing studio with unit, end-to-end, performance, and desktop workflow foundations.
 
-**Rainstorms** → story generation tools
-**Saga Architect** → universe building engine
+### [Rainstorms](https://github.com/Bboy9090/Rainstorms)
+A story-generation platform for turning ideas into structured children’s-book drafts and creative production assets.
 
-**SoulCodex** → personal insight engine
+## Tools, games, and laboratories
 
-## Stats
+- [Atlas Verify](https://github.com/Bboy9090/atlas-verify) — case-based verification and research tooling
+- [REFORGE OS](https://github.com/Bboy9090/REFORGE-OS) — repair and restoration experience research
+- [Super Bobby’s World of Secret Rooms](https://github.com/Bboy9090/Super_Bobbys_World_of_Secret_Rooms) — interactive game and world experimentation
+- [Velocity Systems](https://github.com/Bboy9090/VelocitySystems) — performance and systems experiments
+- [Put Together](https://github.com/Bboy9090/Puttogether) — early product exploration
 
-<img src="https://github-readme-stats.vercel.app/api?username=Bboy9090&show_icons=true&theme=tokyonight">
+Private laboratories include Sonic Codex, Universal Cart, Dad’s Million Miles, patient-care product research, and additional workshop experiments.
+
+## How the ecosystem fits together
+
+```text
+Blue Phoenix Studios
+└── Bobby’s Workshop
+    ├── ARCWYRE Native        from-scratch operating system
+    ├── PhoenixCore           diagnostics and recovery intelligence
+    ├── Phoenix Key           safe boot and recovery media experience
+    ├── BootForge             reusable USB and boot primitives
+    ├── Soul Codex            personal insight platform
+    ├── Phoenix Creator Studio creative production and canon platform
+    ├── Ghost Writer          writing and publishing studio
+    └── Original worlds       Kai-Jax, Rainstorms, and future franchises
+```
+
+Each flagship remains a separate product and repository. Shared low-level components use versioned contracts instead of being silently copied into whichever repository last declared itself the center of the universe.
+
+## Fan-favorite product standard
+
+Every flagship is being developed toward the same long-term standard:
+
+- a memorable identity and unmistakable purpose
+- a fast, accessible, delightful first-run experience
+- stable builds and reproducible release evidence
+- strong onboarding, screenshots, demos, and documentation
+- tests for happy paths, failures, recovery, and data safety
+- consistent design language without making every product look identical
+- community-ready issue templates, contribution paths, changelogs, and roadmaps
+- honest status labels and no fictional completion percentages
+
+See the [Fan-Favorite Product Standard](docs/FAN_FAVORITE_PRODUCT_STANDARD.md) for the portfolio-wide quality gates.
+
+## Current focus
+
+1. ARCWYRE R12 protected userspace and fault containment
+2. PhoenixCore and Phoenix Key contract cleanup and hardware-proof lanes
+3. Soul Codex mobile release quality
+4. Kai-Jax movement, combat feel, continuity, and playable vertical slices
+5. Phoenix Creator Studio production-readiness and creator delight
+6. Portfolio-wide README, CI, security, release, accessibility, and visual polish
 
 ## Philosophy
 
-Build tools that empower people.
-
-Design systems that are understandable.
-
-Create technology that feels human.
-
-Simple beats clever.
-# Saga Architect
-
-**Universe Bible + Canon Engine for Creators**
-
-Saga Architect is a structured world-building and canon management platform designed for writers, game creators, comic creators, and franchise builders.
-
-It helps creators organize complex story worlds by managing characters, factions, timelines, lore, and narrative arcs inside a single connected system.
-
-Unlike traditional note apps, Saga Architect focuses on continuity and canon integrity.
-
----
-
-## Why Saga Architect Exists
-
-Large stories quickly become difficult to manage.
-
-Characters evolve.
-Factions split.
-Timelines branch.
-Lore expands.
-
-Most writing tools simply store notes.
-
-**Saga Architect manages canon.**
-
-It provides a structured system for tracking how every piece of a universe connects.
-
----
-
-## Core Features
-
-### Universe Engine
-
-Create and manage entire fictional universes.
-
-Each universe can contain:
-- factions
-- characters
-- locations
-- artifacts
-- timelines
-- story arcs
-
----
-
-### Canon Tracking
-
-Every entry can be assigned a canon status.
-
-Examples:
-- Canon
-- Alternate Timeline
-- Experimental
-- Deprecated
-
-This allows creators to track official lore without losing experimental ideas.
-
----
-
-### Character System
-
-Characters include structured data fields such as:
-- name
-- faction
-- abilities
-- relationships
-- narrative arc
-- timeline appearances
-
-This makes it easy to maintain consistent character histories.
-
----
-
-### Timeline Management
-
-Stories can be organized along a master timeline.
-
-Events can be linked to:
-- characters
-- locations
-- factions
-- major narrative arcs
-
-This allows creators to track story progression across multiple books, games, or series.
-
----
-
-### Story Arc Generator
-
-Saga Architect can generate story arc frameworks based on existing world data.
-
-Example outputs include:
-- conflict arcs
-- faction wars
-- prophecy arcs
-- character redemption arcs
-- empire collapse arcs
-
-These tools help creators expand their worlds while maintaining internal logic.
-
----
-
-## Who This Tool Is For
-
-Saga Architect is designed for creators building complex fictional worlds.
-
-Examples include:
-- novelists
-- comic creators
-- game developers
-- screenwriters
-- franchise builders
-- lore-heavy storytellers
-
-If your story involves multiple factions, timelines, or evolving canon, Saga Architect provides the structure to manage it.
-
----
-
-## Example Universe Structure
-
-```
-Universe
-│
-├── Factions
-│   ├── The Solar Order
-│   └── The Iron Syndicate
-│
-├── Characters
-│   ├── Arion Vale
-│   └── Lira Sable
-│
-├── Locations
-│   ├── Ember City
-│   └── The Hollow Expanse
-│
-├── Artifacts
-│   └── The Celestial Key
-│
-└── Timeline
-    ├── Age of Collapse
-    └── The Phoenix Rebellion
-```
-
----
-
-## Technology Stack
-
-Saga Architect is built using a modern web development stack.
-
-Core technologies include:
-- React
-- Node.js
-- TypeScript
-- PostgreSQL
-- TailwindCSS
-
-The system is designed to scale from small writing projects to large franchise-level universes.
-
----
-
-## Project Status
-
-**Current phase:** Active Development
-
-Planned improvements include:
-- visual timeline editor
-- faction relationship graph
-- AI-assisted lore generation
-- world map integration
-- export tools for novels, games, and scripts
-
----
-
-## Long-Term Vision
-
-Saga Architect aims to become a professional tool for managing fictional universes across multiple mediums including:
-- novels
-- comics
-- games
-- film
-- television
-
-The goal is to give creators the same level of organizational power that studios use to manage large franchises.
-
----
-
-## Why It Exists
-
-Most writing tools store notes.
-**Saga Architect manages canon.**
-
----
-
-## License
-
-MIT License
+**Build tools that empower people.**  
+**Make complexity understandable.**  
+**Design recovery before failure arrives.**  
+**Treat polish as engineering, not decoration.**  
+**Let the code, tests, users, and evidence decide when something is ready.**
