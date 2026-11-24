@@ -39,6 +39,16 @@ An AI-assisted writing, OCR, research, editing, and publishing studio with unit,
 ### [Rainstorms](https://github.com/Bboy9090/Rainstorms)
 A story-generation platform for turning ideas into structured children’s-book drafts and creative production assets.
 
+## Cybersecurity & Defensive Engineering
+
+- **Focus Areas:** Endpoint Detection & Response (macOS/Linux), Sigma Detection Engineering, Offline PCAP / Suricata Analysis, Read-Only DFIR Triage & Chain of Custody, STIX 2.1 Threat Intel, and CIS / NIST CSF 2.0 Posture Auditing.
+- **Languages:** Python (zero-dependency deterministic pipelines), Rust (native endpoint & USB/boot primitives), Swift/SwiftUI (Universal macOS 11+ apps).
+- **Verified Public Security Laboratories:**
+  - [Ghostwire Detection Lab](https://github.com/Bboy9090/ghostwire-detection-lab) — Sigma YAML detection engine, versioned `v2.0.0` security event schema, bounded queue telemetry-loss visibility, and deterministic replay (`11/11` unit tests pass)
+  - [Ghostwire DFIR Toolkit](https://github.com/Bboy9090/ghostwire-dfir-toolkit) — Read-only file triage, magic-byte identification, SHA-256 chain of custody, and tamper-evident JSON/Markdown case exports (`1/1` unit test passes)
+  - [Ghostwire Network Defense Lab](https://github.com/Bboy9090/ghostwire-network-defense-lab) — Bounded offline PCAP parser, Suricata EVE JSON ingestion, Shannon-entropy DNS heuristics, and host process correlation (`4/4` unit tests pass)
+  - [Bag of OS X and iOS Security Tools](https://github.com/Bboy9090/Bag-of-osx-and-ios-security--tools) — Curated Apple security & defensive tooling collection
+
 ## Tools, games, and laboratories
 
 - [Atlas Verify](https://github.com/Bboy9090/atlas-verify) — case-based verification and research tooling
